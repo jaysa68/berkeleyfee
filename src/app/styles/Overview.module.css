@@ -1,0 +1,33 @@
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 83vh;
+}
+
+.descContainer {
+  background-color: var(--mantle);
+  border: solid 2px;
+
+  width: 50%;
+  margin: 16px;
+  padding: 5px;
+  overflow: scroll;
+  height: 100%
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+
+.chartTitle {
+  font-size: 1.5rem;
+}
+
+.chartGrid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 75vh;
+}
