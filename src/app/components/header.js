@@ -4,6 +4,11 @@ import Link from 'next/link';
 import styles from '../styles/Header.module.css'
 import { usePathname } from 'next/navigation'
 
+// took out history tab for now
+//        <HeaderLink
+//          name="History"
+//          url="/history"
+//        />
 
 export function HeaderLink({ name, url }) {
   const currentPath = usePathname();
@@ -30,10 +35,6 @@ export default function Header() {
         <HeaderLink
           name="Campus-Based Fees"
           url="/campus-fee"
-        />
-        <HeaderLink
-          name="History"
-          url="/history"
         />
       </div>
     </div>

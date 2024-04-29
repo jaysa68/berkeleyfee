@@ -14,7 +14,7 @@ export function Section({ title, description }) {
       <h1 className={styles.head1}>
         {title}
       </h1> 
-      <p>
+      <p className={styles.para}>
         {description}
       </p>
       <Line miscTitle={title} />

@@ -8,13 +8,13 @@ function Line( { miscTitle }) {
 }
 
 
-export function Section({ title, description }) {
+export function Section({ title, titleLink, description }) {
   return (
     <div>
-      <h1 className={styles.head1}>
+      <a className={styles.ssfTitle} href={titleLink}>
         {title}
-      </h1> 
-      <p>
+      </a> 
+      <p className={styles.para}>
         {description}
       </p>
       <Line miscTitle={title} />
@@ -27,6 +27,7 @@ export default function Descriptions() {
     <>
     <Section
       title="Student Affairs Division: $29,009,334"
+      titleLink="https://studentaffairs.berkeley.edu/"
       description=
         <>
 
@@ -42,6 +43,7 @@ export default function Descriptions() {
     />
     <Section
       title="University Health Services: $14,048,487"
+      titleLink="https://uhs.berkeley.edu/home"
       description=
         <>
 
@@ -58,6 +60,7 @@ export default function Descriptions() {
     />
     <Section
       title="AVC SA and Dean of Students: $7,824,953"
+      titleLink="https://deanofstudents.berkeley.edu/"
       description=
         <>
 
@@ -72,6 +75,7 @@ export default function Descriptions() {
     />
     <Section
       title="Equity and Inclusion Division: $4,483,359"
+      titleLink="https://diversity.berkeley.edu/"
       description=
         <>
 
@@ -88,6 +92,7 @@ export default function Descriptions() {
     />
     <Section
       title="Undergraduate Education Division: $3,369,773"
+      titleLink="https://ue.berkeley.edu/home"
       description=
         <>
 
@@ -105,6 +110,7 @@ export default function Descriptions() {
     />
     <Section
       title="Research Teaching and Learning: $2,982,364"
+      titleLink="https://rtl.berkeley.edu/"
       description=
         <>
 
@@ -119,6 +125,7 @@ export default function Descriptions() {
     />
     <Section
       title="Financial Aid Division: $2,363,619"
+      titleLink="https://financialaid.berkeley.edu/"
       description=
         <>
 
@@ -136,6 +143,7 @@ export default function Descriptions() {
     />
     <Section
       title="Graduate Division: $1,604,871"
+      titleLink="https://grad.berkeley.edu/"
       description=
         <>
 
@@ -151,6 +159,7 @@ export default function Descriptions() {
     />
     <Section
       title="BAMPFA: $1,300,497"
+      titleLink="https://bampfa.org/"
       description=
         <>
 
@@ -169,6 +178,7 @@ export default function Descriptions() {
     />
     <Section
       title="Disabled Students Program: $1,297,576"
+      titleLink="https://dsp.berkeley.edu/"
       description=
         <>
 

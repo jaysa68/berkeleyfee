@@ -1,6 +1,20 @@
-.head1 {
+.ssfTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 10px;
 }
 
 .descHr {
   color: var(--text);
+}
+
+.head1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.para {
+  margin: 20px 30px 30px 30px;
 }
