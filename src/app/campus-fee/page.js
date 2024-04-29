@@ -31,7 +31,6 @@ const [selectedGrad, setSelectedGrad] = useState('Undergraduate');
         </h1>
 
         <div className={styles.chartGrid}> 
-          <Example year={selectedYear}/>
         </div>
 
       </div>
