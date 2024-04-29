@@ -10,7 +10,7 @@
 }
 
 .headerLink {
-  margin: 1rem;
+  margin: 0.5rem;
 
   color: inherit;
   text-decoration: none;
@@ -19,7 +19,7 @@
 }
 
 .headerLinkActive {
-  margin: 1rem;
+  margin: 0.5rem;
 
   color: inherit;
   text-decoration: underline;

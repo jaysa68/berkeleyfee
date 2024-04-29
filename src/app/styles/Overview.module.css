@@ -1,7 +1,7 @@
 .outerContainer {
   display: flex;
   flex-direction: row;
-  height: 83vh;
+  height: 86vh;
 }
 
 .descContainer {
@@ -29,5 +29,5 @@
 .chartGrid {
   display: flex;
   flex-wrap: wrap;
-  height: 75vh;
+  height: 70vh;
 }

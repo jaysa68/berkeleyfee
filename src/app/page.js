@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 import styles from "./styles/Overview.module.css"
 import Descriptions from "./components/overview-descriptions.js"
-import OverviewChart from "./components/charts/resident-undergraduate-cost-of-attendance.js"
 import Dropdown from "./components/dropdown.js"
 
 import Example from "./components/charts/re-overview-chart.js"
